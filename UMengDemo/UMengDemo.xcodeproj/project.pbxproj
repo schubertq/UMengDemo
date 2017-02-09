@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806F79CB1E49AB9300098840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F79CA1E49AB9300098840 /* main.m */; };
+		806F79CE1E49AB9300098840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F79CD1E49AB9300098840 /* AppDelegate.m */; };
+		806F79D11E49AB9300098840 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F79D01E49AB9300098840 /* ViewController.m */; };
+		806F79D41E49AB9300098840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806F79D21E49AB9300098840 /* Main.storyboard */; };
+		806F79D61E49AB9300098840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806F79D51E49AB9300098840 /* Assets.xcassets */; };
+		806F79D91E49AB9300098840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806F79D71E49AB9300098840 /* LaunchScreen.storyboard */; };
+		806F79E41E49AB9300098840 /* UMengDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F79E31E49AB9300098840 /* UMengDemoTests.m */; };
+		806F79EF1E49AB9300098840 /* UMengDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F79EE1E49AB9300098840 /* UMengDemoUITests.m */; };
+		BD8FD532876610A6F759FB5C /* libPods-UMengDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5434CBB215C73AC26E641EB3 /* libPods-UMengDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806F79E01E49AB9300098840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806F79BE1E49AB9300098840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806F79C51E49AB9300098840;
+			remoteInfo = UMengDemo;
+		};
+		806F79EB1E49AB9300098840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806F79BE1E49AB9300098840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806F79C51E49AB9300098840;
+			remoteInfo = UMengDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E70D2A449DF592A04A01A5 /* Pods-UMengDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UMengDemo/Pods-UMengDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5434CBB215C73AC26E641EB3 /* libPods-UMengDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UMengDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F79C61E49AB9300098840 /* UMengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F79CA1E49AB9300098840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806F79CC1E49AB9300098840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		806F79CD1E49AB9300098840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806F79CF1E49AB9300098840 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		806F79D01E49AB9300098840 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		806F79D31E49AB9300098840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806F79D51E49AB9300098840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806F79D81E49AB9300098840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806F79DA1E49AB9300098840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806F79DF1E49AB9300098840 /* UMengDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F79E31E49AB9300098840 /* UMengDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengDemoTests.m; sourceTree = "<group>"; };
+		806F79E51E49AB9300098840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806F79EA1E49AB9300098840 /* UMengDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMengDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806F79EE1E49AB9300098840 /* UMengDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengDemoUITests.m; sourceTree = "<group>"; };
+		806F79F01E49AB9300098840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A807C34C4655AC25AF23B4A7 /* Pods-UMengDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMengDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UMengDemo/Pods-UMengDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806F79C31E49AB9300098840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8FD532876610A6F759FB5C /* libPods-UMengDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F79DC1E49AB9300098840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F79E71E49AB9300098840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359D3F588956BE1226609696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A807C34C4655AC25AF23B4A7 /* Pods-UMengDemo.debug.xcconfig */,
+				05E70D2A449DF592A04A01A5 /* Pods-UMengDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		806F79BD1E49AB9300098840 = {
+			isa = PBXGroup;
+			children = (
+				806F79C81E49AB9300098840 /* UMengDemo */,
+				806F79E21E49AB9300098840 /* UMengDemoTests */,
+				806F79ED1E49AB9300098840 /* UMengDemoUITests */,
+				806F79C71E49AB9300098840 /* Products */,
+				359D3F588956BE1226609696 /* Pods */,
+				9A9D243F7D30E0C33D66A537 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		806F79C71E49AB9300098840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806F79C61E49AB9300098840 /* UMengDemo.app */,
+				806F79DF1E49AB9300098840 /* UMengDemoTests.xctest */,
+				806F79EA1E49AB9300098840 /* UMengDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806F79C81E49AB9300098840 /* UMengDemo */ = {
+			isa = PBXGroup;
+			children = (
+				806F79CC1E49AB9300098840 /* AppDelegate.h */,
+				806F79CD1E49AB9300098840 /* AppDelegate.m */,
+				806F79CF1E49AB9300098840 /* ViewController.h */,
+				806F79D01E49AB9300098840 /* ViewController.m */,
+				806F79D21E49AB9300098840 /* Main.storyboard */,
+				806F79D51E49AB9300098840 /* Assets.xcassets */,
+				806F79D71E49AB9300098840 /* LaunchScreen.storyboard */,
+				806F79DA1E49AB9300098840 /* Info.plist */,
+				806F79C91E49AB9300098840 /* Supporting Files */,
+			);
+			path = UMengDemo;
+			sourceTree = "<group>";
+		};
+		806F79C91E49AB9300098840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806F79CA1E49AB9300098840 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		806F79E21E49AB9300098840 /* UMengDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				806F79E31E49AB9300098840 /* UMengDemoTests.m */,
+				806F79E51E49AB9300098840 /* Info.plist */,
+			);
+			path = UMengDemoTests;
+			sourceTree = "<group>";
+		};
+		806F79ED1E49AB9300098840 /* UMengDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				806F79EE1E49AB9300098840 /* UMengDemoUITests.m */,
+				806F79F01E49AB9300098840 /* Info.plist */,
+			);
+			path = UMengDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A9D243F7D30E0C33D66A537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5434CBB215C73AC26E641EB3 /* libPods-UMengDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806F79C51E49AB9300098840 /* UMengDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806F79F31E49AB9300098840 /* Build configuration list for PBXNativeTarget "UMengDemo" */;
+			buildPhases = (
+				F86DF0245FFFC83AF664C63B /* [CP] Check Pods Manifest.lock */,
+				806F79C21E49AB9300098840 /* Sources */,
+				806F79C31E49AB9300098840 /* Frameworks */,
+				806F79C41E49AB9300098840 /* Resources */,
+				82A5EBFF1DDC187907482897 /* [CP] Embed Pods Frameworks */,
+				3136C55E3A2DF0E25F46E222 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMengDemo;
+			productName = UMengDemo;
+			productReference = 806F79C61E49AB9300098840 /* UMengDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806F79DE1E49AB9300098840 /* UMengDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806F79F61E49AB9300098840 /* Build configuration list for PBXNativeTarget "UMengDemoTests" */;
+			buildPhases = (
+				806F79DB1E49AB9300098840 /* Sources */,
+				806F79DC1E49AB9300098840 /* Frameworks */,
+				806F79DD1E49AB9300098840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806F79E11E49AB9300098840 /* PBXTargetDependency */,
+			);
+			name = UMengDemoTests;
+			productName = UMengDemoTests;
+			productReference = 806F79DF1E49AB9300098840 /* UMengDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806F79E91E49AB9300098840 /* UMengDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806F79F91E49AB9300098840 /* Build configuration list for PBXNativeTarget "UMengDemoUITests" */;
+			buildPhases = (
+				806F79E61E49AB9300098840 /* Sources */,
+				806F79E71E49AB9300098840 /* Frameworks */,
+				806F79E81E49AB9300098840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806F79EC1E49AB9300098840 /* PBXTargetDependency */,
+			);
+			name = UMengDemoUITests;
+			productName = UMengDemoUITests;
+			productReference = 806F79EA1E49AB9300098840 /* UMengDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806F79BE1E49AB9300098840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = schubertq;
+				TargetAttributes = {
+					806F79C51E49AB9300098840 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 33B442A7PN;
+						ProvisioningStyle = Automatic;
+					};
+					806F79DE1E49AB9300098840 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 806F79C51E49AB9300098840;
+					};
+					806F79E91E49AB9300098840 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 806F79C51E49AB9300098840;
+					};
+				};
+			};
+			buildConfigurationList = 806F79C11E49AB9300098840 /* Build configuration list for PBXProject "UMengDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806F79BD1E49AB9300098840;
+			productRefGroup = 806F79C71E49AB9300098840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806F79C51E49AB9300098840 /* UMengDemo */,
+				806F79DE1E49AB9300098840 /* UMengDemoTests */,
+				806F79E91E49AB9300098840 /* UMengDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806F79C41E49AB9300098840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F79D91E49AB9300098840 /* LaunchScreen.storyboard in Resources */,
+				806F79D61E49AB9300098840 /* Assets.xcassets in Resources */,
+				806F79D41E49AB9300098840 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F79DD1E49AB9300098840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F79E81E49AB9300098840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3136C55E3A2DF0E25F46E222 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMengDemo/Pods-UMengDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A5EBFF1DDC187907482897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UMengDemo/Pods-UMengDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F86DF0245FFFC83AF664C63B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806F79C21E49AB9300098840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F79D11E49AB9300098840 /* ViewController.m in Sources */,
+				806F79CE1E49AB9300098840 /* AppDelegate.m in Sources */,
+				806F79CB1E49AB9300098840 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F79DB1E49AB9300098840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F79E41E49AB9300098840 /* UMengDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806F79E61E49AB9300098840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F79EF1E49AB9300098840 /* UMengDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806F79E11E49AB9300098840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806F79C51E49AB9300098840 /* UMengDemo */;
+			targetProxy = 806F79E01E49AB9300098840 /* PBXContainerItemProxy */;
+		};
+		806F79EC1E49AB9300098840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806F79C51E49AB9300098840 /* UMengDemo */;
+			targetProxy = 806F79EB1E49AB9300098840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806F79D21E49AB9300098840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806F79D31E49AB9300098840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806F79D71E49AB9300098840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806F79D81E49AB9300098840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806F79F11E49AB9300098840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		806F79F21E49AB9300098840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806F79F41E49AB9300098840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A807C34C4655AC25AF23B4A7 /* Pods-UMengDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33B442A7PN;
+				INFOPLIST_FILE = UMengDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schubertq.UMengDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		806F79F51E49AB9300098840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E70D2A449DF592A04A01A5 /* Pods-UMengDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33B442A7PN;
+				INFOPLIST_FILE = UMengDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schubertq.UMengDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		806F79F71E49AB9300098840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMengDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schubertq.UMengDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMengDemo.app/UMengDemo";
+			};
+			name = Debug;
+		};
+		806F79F81E49AB9300098840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMengDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schubertq.UMengDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMengDemo.app/UMengDemo";
+			};
+			name = Release;
+		};
+		806F79FA1E49AB9300098840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMengDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schubertq.UMengDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMengDemo;
+			};
+			name = Debug;
+		};
+		806F79FB1E49AB9300098840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMengDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schubertq.UMengDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMengDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806F79C11E49AB9300098840 /* Build configuration list for PBXProject "UMengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F79F11E49AB9300098840 /* Debug */,
+				806F79F21E49AB9300098840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806F79F31E49AB9300098840 /* Build configuration list for PBXNativeTarget "UMengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F79F41E49AB9300098840 /* Debug */,
+				806F79F51E49AB9300098840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806F79F61E49AB9300098840 /* Build configuration list for PBXNativeTarget "UMengDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F79F71E49AB9300098840 /* Debug */,
+				806F79F81E49AB9300098840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806F79F91E49AB9300098840 /* Build configuration list for PBXNativeTarget "UMengDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806F79FA1E49AB9300098840 /* Debug */,
+				806F79FB1E49AB9300098840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806F79BE1E49AB9300098840 /* Project object */;
+}
